@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Merve Kuaför | Hair Make Up</title>
+  <meta name="description" content="Merve Kuaför Hair Make Up için premium randevu odaklı kuaför web sitesi. Saç kesim, boya, fön, makyaj ve bakım hizmetleri." />
+  <meta name="theme-color" content="#0b0710" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Allura&family=Cinzel:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="loader" id="loader">
+    <div class="loader-ring"></div>
+    <p>Merve Kuaför</p>
+  </div>
+
+  <div class="progress" id="progress"></div>
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-dot" id="cursorDot"></div>
+
+  <nav class="nav" id="nav">
+    <a class="brand" href="#home" aria-label="Merve Kuaför ana sayfa">
+      <span class="brand-mark"><span class="brand-initial">M</span><span class="brand-spark">✦</span></span>
+      <span><b>Merve</b><em>Hair Make Up</em></span>
+    </a>
+    <div class="nav-links">
+      <a href="#hizmetler">Hizmetler</a>
+      <a href="#galeri">Galeri</a>
+      <a href="#yorumlar">Yorumlar</a>
+      <a href="#sss">SSS</a>
+      <a href="#iletisim">İletişim</a>
+    </div>
+    <a class="nav-cta magnetic" href="https://wa.me/905520199598?text=Merhaba%20Merve%20Kuaf%C3%B6r%20i%C3%A7in%20randevu%20almak%20istiyorum" target="_blank" rel="noopener">Randevu Al</a>
+    <button class="hamb" id="hamb" aria-label="Menü"><span></span><span></span></button>
+  </nav>
+
+  <aside class="mobile-menu" id="mobileMenu">
+    <a href="#hizmetler">Hizmetler</a>
+    <a href="#galeri">Galeri</a>
+    <a href="#yorumlar">Yorumlar</a>
+    <a href="#sss">SSS</a>
+    <a href="#iletisim">İletişim</a>
+    <a class="menu-cta" href="https://wa.me/905520199598?text=Merhaba%20Merve%20Kuaf%C3%B6r%20i%C3%A7in%20randevu%20almak%20istiyorum" target="_blank" rel="noopener">Randevu Al</a>
+  </aside>
+
+  <header class="hero" id="home">
+    <picture class="hero-bg">
+      <source media="(max-width: 760px)" srcset="tel.png">
+      <img src="pc.png" alt="Merve Kuaför çizgi film premium dış cephe" />
+    </picture>
+    <div class="aurora"></div>
+    <canvas id="sparkCanvas" class="spark-canvas"></canvas>
+    <div class="floating-badge badge-one">Hair Art</div>
+    <div class="floating-badge badge-two">Make Up</div>
+    <div class="hero-content reveal">
+      <p class="eyebrow">premium kuaför deneyimi</p>
+      <h1>Merve Kuaför<br><span>Hair Make Up</span></h1>
+      <p class="hero-text">Saç kesiminden renklendirmeye makyajdan bakıma kadar her detayın özenle hazırlandığı modern güzellik noktası</p>
+      <div class="hero-actions">
+        <a class="btn primary magnetic" href="https://wa.me/905520199598?text=Merhaba%20Merve%20Kuaf%C3%B6r%20i%C3%A7in%20randevu%20almak%20istiyorum" target="_blank" rel="noopener">Randevu Al</a>
+        <a class="btn ghost" href="tel:05520199598">Hemen Ara</a>
+      </div>
+      <div class="hero-stats">
+        <div><b data-count="9">0</b><span>uzman hizmet</span></div>
+        <div><b data-count="6">0</b><span>gün açık</span></div>
+        <div><b data-count="100">0</b><span>memnuniyet odağı</span></div>
+      </div>
+    </div>
+    <div class="scroll-cue">kaydır</div>
+  </header>
+
+  <main>
+    <section class="trust section reveal">
+      <div class="trust-card">
+        <span>Çalışma Düzeni</span>
+        <strong>09:00 – 18:00</strong>
+        <p>Salı hariç her gün hizmette</p>
+      </div>
+      <div class="trust-card accent">
+        <span>Randevu Hattı</span>
+        <strong>Tek Dokunuşla Yaz</strong>
+        <p>Uygun saat için hızlı WhatsApp görüşmesi</p>
+      </div>
+      <div class="trust-card">
+        <span>Salon Konumu</span>
+        <strong>Çakmaklar İş Merkezi</strong>
+        <p>Google Maps ile direkt yol tarifi</p>
+      </div>
+    </section>
+
+    <section class="section split reveal" id="hizmetler">
+      <div class="section-head">
+        <p class="eyebrow">imza hizmetler</p>
+        <h2>Her saç ayrı bir karakter taşır biz o karakteri parlatırız</h2>
+      </div>
+      <div class="services-grid">
+        <article class="service-card"><i>01</i><h3>Saç Kesim</h3><p>Yüz hattına ve stile göre modern kadın erkek kesim çalışmaları</p></article>
+        <article class="service-card"><i>02</i><h3>Fön & Şekillendirme</h3><p>Günlük şıklık özel gün hazırlığı ve kalıcı düzgün görünüm</p></article>
+        <article class="service-card"><i>03</i><h3>Saç Boya</h3><p>Doğal geçişler parlak tonlar ve karakterli renk tasarımları</p></article>
+        <article class="service-card"><i>04</i><h3>Ombre & Sombre</h3><p>Yumuşak ışıltılar profesyonel geçiş ve premium renk derinliği</p></article>
+        <article class="service-card"><i>05</i><h3>Saç Bakımı</h3><p>Yıpranmış saçlara canlılık parlaklık ve daha güçlü görünüm</p></article>
+        <article class="service-card"><i>06</i><h3>Profesyonel Makyaj</h3><p>Düğün nişan davet ve özel çekimler için etkileyici makyaj</p></article>
+        <article class="service-card"><i>07</i><h3>Kaş & Kirpik</h3><p>Bakışı belirginleştiren temiz doğal ve yüzle uyumlu dokunuşlar</p></article>
+        <article class="service-card"><i>08</i><h3>Gelin Hazırlığı</h3><p>Saç makyaj uyumu ile özel gün için eksiksiz zarafet</p></article>
+      </div>
+    </section>
+
+    <section class="section cinematic-beauty reveal">
+      <div class="beauty-preview" aria-label="Premium saç ve makyaj sinematik vitrin alanı">
+        <div class="video-frame">
+          <div class="video-bg"></div>
+          <div class="glass-sweep"></div>
+          <div class="hair-ribbon ribbon-one"></div>
+          <div class="hair-ribbon ribbon-two"></div>
+          <div class="makeup-orbit orbit-one"></div>
+          <div class="makeup-orbit orbit-two"></div>
+          <div class="bokeh bokeh-a"></div>
+          <div class="bokeh bokeh-b"></div>
+          <div class="frame-label"><span>live beauty preview</span><b>hair & make up</b></div>
+        </div>
+      </div>
+      <div class="cartoon-copy beauty-copy">
+        <p class="eyebrow">hair make up atelier</p>
+        <h2>Saçın ışıltısı makyajın zarafeti aynı sahnede buluşur</h2>
+        <p>Profesyonel saç tasarımı özel gün makyajı ve bakım dokunuşları premium bir salon atmosferiyle sunulur Her detay randevu almaya çağıran canlı ve şık bir vitrin hissi verir</p>
+      </div>
+    </section>
+
+    <section class="section gallery reveal" id="galeri">
+      <div class="section-head center">
+        <p class="eyebrow">premium atmosfer</p>
+        <h2>Güzelliğin vitrini sade değil etkileyici olmalı</h2>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item tall"><span>renk dönüşümü</span></div>
+        <div class="gallery-item"><span>özel makyaj</span></div>
+        <div class="gallery-item"><span>fön & bakım</span></div>
+        <div class="gallery-item wide"><span>gelin hazırlığı</span></div>
+        <div class="gallery-item"><span>ışıltılı saç</span></div>
+      </div>
+    </section>
+
+    <section class="section reviews reveal" id="yorumlar">
+      <div class="section-head">
+        <p class="eyebrow">müşteri hissi</p>
+        <h2>Temiz özenli ve randevuya çağıran salon algısı</h2>
+      </div>
+      <div class="review-wrap">
+        <blockquote>“Saç rengim tam istediğim gibi oldu ortam da çok temiz ve rahattı”<cite>— müşteri yorumu</cite></blockquote>
+        <blockquote>“Randevu süreci hızlıydı makyajım gün boyu bozulmadı”<cite>— müşteri yorumu</cite></blockquote>
+        <blockquote>“Kesim ve fön gerçekten profesyonel duruyor tekrar geleceğim”<cite>— müşteri yorumu</cite></blockquote>
+      </div>
+    </section>
+
+    <section class="section faq reveal" id="sss">
+      <div class="section-head center">
+        <p class="eyebrow">sık sorulanlar</p>
+        <h2>Randevu almadan önce bilmen gerekenler</h2>
+      </div>
+      <div class="faq-list">
+        <button class="faq-q">Salı günü açık mı <span>+</span></button><div class="faq-a">Hayır salı günü kapalı diğer günler 09:00 18:00 arası hizmet veriyor</div>
+        <button class="faq-q">Randevu nasıl alınır <span>+</span></button><div class="faq-a">WhatsApp üzerinden yazıp uygun saat sorabilirsin En hızlı yol randevu al butonudur</div>
+        <button class="faq-q">Makyaj hizmeti var mı <span>+</span></button><div class="faq-a">Evet özel gün düğün nişan davet ve çekim için profesyonel makyaj hizmeti eklenmiştir</div>
+        <button class="faq-q">Konuma nasıl giderim <span>+</span></button><div class="faq-a">Aşağıdaki harita butonundan Google Maps konumuna tek tıkla ulaşabilirsin</div>
+      </div>
+    </section>
+
+    <section class="cta reveal">
+      <div>
+        <p class="eyebrow">bugün güzelliğe vakit ayır</p>
+        <h2>Uygun saat için hemen yaz</h2>
+      </div>
+      <a class="btn primary magnetic" href="https://wa.me/905520199598?text=Merhaba%20Merve%20Kuaf%C3%B6r%20i%C3%A7in%20randevu%20almak%20istiyorum" target="_blank" rel="noopener">WhatsApp Randevu</a>
+    </section>
+
+    <section class="section contact reveal" id="iletisim">
+      <div class="contact-card">
+        <p class="eyebrow">iletişim</p>
+        <h2>Merve Kuaför Hair Make Up</h2>
+        <p>Çalışma saatleri 09:00 18:00 Salı kapalı</p>
+        <div class="contact-actions">
+          <a class="btn primary" href="https://wa.me/905520199598?text=Merhaba%20Merve%20Kuaf%C3%B6r%20i%C3%A7in%20randevu%20almak%20istiyorum" target="_blank" rel="noopener">Randevu Al</a>
+          <a class="btn ghost" href="https://www.instagram.com/mervehairmakeupp/" target="_blank" rel="noopener">Instagram</a>
+          <a class="btn ghost" href="https://www.google.com/maps?ftid=0x406e5fa8413ea3e9:0x99df07e914bfe740" target="_blank" rel="noopener">Yol Tarifi</a>
+        </div>
+      </div>
+      <div class="map-card">
+        <iframe title="Merve Kuaför harita" src="https://www.google.com/maps?q=0x406e5fa8413ea3e9:0x99df07e914bfe740&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© Merve Kuaför Hair Make Up</p>
+    <a href="https://wa.me/905317940740?text=Merhaba%20web%20tasar%C4%B1m%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum" target="_blank" rel="noopener">Web tasarım için 0531 794 07 40</a>
+  </footer>
+
+  <div class="sticky-actions">
+    <a class="sticky wa" href="https://wa.me/905520199598?text=Merhaba%20Merve%20Kuaf%C3%B6r%20i%C3%A7in%20randevu%20almak%20istiyorum" target="_blank" rel="noopener" aria-label="WhatsApp">☎</a>
+    <a class="sticky call" href="tel:05520199598" aria-label="Ara">✦</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
